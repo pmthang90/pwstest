@@ -16,7 +16,7 @@ function get-pctest {
     $obj | Add-Member -MemberType NoteProperty -Name SystemFree -Value $disk.freespace
 
     Write-Output $obj
-
+# to test everything
 }
 
 
